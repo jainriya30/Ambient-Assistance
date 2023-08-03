@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Doctor's Page</title>
+        <link rel="stylesheet" href="style.css"> <!-- CALLING CSS FILE-->
+         
+    </head>
+    <body>
+        <div class="doc-page">
+            <div class="dob">
+            <h1 id="dtext1"> Hello Doctor !</h1>
+            <h2 id="dtext2"> Welcome back </h2>
+            <a href="viewpatient.html">
+            <button type="button" class="doc-toggle-btn" onclick="Viewpatients()">View Patients</button>
+            </a>
+            <a href="addpatient.html">
+            <button type="button" class="doc-toggle-btn" onclick="Addpatient()">Add Patients</button>
+            </a>
+            </div>
+        </div>
+        
+    </body>
+</html>
+/!--
+<script>
+    var a= document.getElementById("login");
+    var b= document.getElementById("register");
+  
+
+    function register(){
+        a.style.left="-400px";
+        b.style.left="50px";
+    }
+
+    function login(){
+        a.style.left="50px";
+        b.style.left="450px";
+      
+    }
+</script>

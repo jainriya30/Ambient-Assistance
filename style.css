@@ -1,0 +1,367 @@
+/* .......................................FIRST PAGE CSS STARTS FROM HERE...................................... */
+
+/* FOR WHOLE SCREEN*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+/* FOR WHOLE PAGE*/
+
+.mainpage{
+    height: 100% ;
+    width: 100% ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0,0,0,0)),url(firstpageback.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute; 
+}
+
+/* WHITE SCREEN */
+
+.form-box{
+    width: 380px;
+    height: 480px;
+    position:relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+}
+/* CREATING SPACE FOR TWO SWITCH BUTTON */
+
+.button-box{
+    width: 220px ;
+    margin:35px auto;
+    position: relative;
+    box-shadow: 0 0 30px 9px #7f7f7f3d;
+    ;
+    border-radius: 30px;
+}
+
+/* TWO SWITCH BUTTON */
+
+.toggle-btn{
+    padding:10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border:0;
+    outline: none;
+    position:relative;
+}
+ 
+/* TWO SWITCH BUTTON */
+
+#btn{
+    top: 0;
+    left: 0;
+    position:absolute;
+    width:110px;
+    height: 100%;
+    background:linear-gradient(to right, #4410ff,#0617ff);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+/* SOCIAL ICON SPACE  */
+
+.social-icons{
+    margin: 30px auto;
+    text-align:center;
+}
+
+/* SOCIAL ICON IMAGE CREATION  */
+
+.social-icons img{
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+/* ALL THE INPUT  */
+
+.all-inputs{
+    top: 180px ;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+
+}
+
+/* INPUT FIELDS */
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top:0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background:transparent;
+}
+
+/* LOGIN AND REGISTER SUBMIT BUTTON ON EACH PAGE  */
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor:pointer;
+    display: block;
+    margin: auto;
+    background:linear-gradient(to right, #4410ff,#0617ff);
+    border:0;
+    outline: none;
+    border-radius: 30px;
+}
+
+/* CHECK BOX  */
+.check-box{
+    margin:30px 10px 30px 0;
+}
+
+/* CHECKBOX LABEL */
+
+span{
+    color:#777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+
+/* LOGIN PAGE  */
+
+#login{
+    left:50px;
+}
+
+/* REGISTER PAGE */
+
+#register{
+    left:450px;
+}
+
+
+/* .......................................FIRST PAGE CSS ENDS HERE......................................... */
+
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
+/* .......................................DOCTOR'S PAGE CSS STARTS FROM HERE................................. */
+
+.doc-page{
+    height: 100% ;
+    width: 100% ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0,0,0,0)),url(docpageback.jpg);
+    background-position: center;
+    background-size: contain;
+    position: absolute; 
+    text-align: center;   
+}
+
+
+.dob{
+    padding: 50px;
+    font-size: 35px;
+    margin-top:11%;
+}
+#dtext1{
+    font-size: 50px;
+    text-align:center;
+    text-transform:uppercase;
+    text-indent: 30px;
+    text-shadow: 5px,10px,5px, whitesmoke;
+
+}
+#dtext2{
+    font-size: 40px;
+    text-align:center;
+    text-transform:uppercase;
+    text-indent: 30px;
+    margin-top:25px;
+    margin-bottom: 50px;
+}
+
+
+.doc-toggle-btn{
+        padding:30px 30px;
+        cursor: pointer;
+        background: #2810ff8e;
+        border:0;
+        outline: none;
+        position:relative;
+        transition: .5s;
+        margin-left:5%;
+        margin-right: 5%;
+        border-radius: 15px;
+        font-size:60%;
+    }
+
+
+
+/* .......................................DOCTOR'S PAGE CSS ENDS HERE....................................... */
+
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* ...................................VIEW PATIENT TABLE STARTS FROM HERE................................... */
+
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-top:15%;
+    margin-left: 20%;
+  }
+  
+  .content-table thead tr {
+    background-color: #000a9886;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #000a9898;
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #000a9898;
+  }
+  
+#viewbody{
+    height: 100% ;
+    width: 100% ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0,0,0,0)),url(vp.jpeg);
+    background-position: center;
+    background-size:cover;
+    position: absolute; 
+    text-align: center;   
+}
+
+
+/* .......................................VIEW PATIENT TABLE ENDS HERE....................................... */
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* .......................................ADD PATIENT CSS STARTS FROM HERE................................. */
+ /*BODY*/
+
+#apbody{
+        
+    }
+ 
+/* MAIN CLASS*/
+
+.add-p{
+    height: 100% ;
+    width: 100% ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0,0,0,0)),url(addpatient.jpg); 
+    background-position: right top;
+    background-size:cover;
+    position: absolute; 
+}
+
+
+/* HEADING H2*/
+#hea{
+    text-align:center;
+    padding:10px;
+    font-family: sans-serif;
+}
+
+/* GREY TRANSPARENT FORM*/
+
+.addp-form{
+    background-color: rgba(0, 0, 0, 0.15);
+    width:28%;
+    height:96%;
+    font-size:10px;
+    border-radius: 10px;
+    border:1px solid rgba(255,255,255,0.3);
+    box-shadow:2px 2px 15px rgba(0,0,0,0.3);
+    color:rgb(26, 24, 25);
+    font-style:normal;
+    margin-left: 9%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/*  PATIENT ID SHIFTING UP*/
+
+#addpa{
+    margin: 20x;
+}
+
+
+/* FOR ALL THE LABELS*/
+
+label{
+    font-family: sans-serif;
+    font-size:16px;
+    font-weight: bolder;
+}
+
+/* ALLL THE BOXES FOR INPUTS*/
+
+.infield{
+    width:300px;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    outline:0;
+    padding:7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+#submit{
+    width:200px;
+    padding:7px;
+    font-size: 16px; 
+    font-family: sans-serif;
+    font-weight: 600;
+    border:none;
+    border-radius: 3px;
+    background-color: rgba(37, 0, 250, 0.8);
+    color:#fff;
+    cursor: pointer;
+    border:1px solid rgba(255,255,255,0.3);
+    box-shadow:1px 1px 5px rgba(0,0,0,0.3);
+    margin-bottom:20px;
+    margin-left: 0%;
+}
+
+label,#Male,#Female,h2{
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+
+}
+
+.all-inputs-ap{
+    margin:40px;
+}
+
+
+/* ..........................................ADD PATIENT CSS ENDS HERE..................................... */
